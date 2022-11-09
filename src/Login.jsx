@@ -22,7 +22,7 @@ function Login() {
           })
         );
       })
-      .catch((e) => alert(error.message));
+      .catch((e) => alert(e.message));
   };
   return (
     <div className='login'>
